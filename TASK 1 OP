@@ -1,0 +1,27 @@
+1.EXPLAIN BRIEF ABOUT GIT AND GITHUB.
+  
+ans:-Git is a version control system that allows software developers to keep track of changes made to their code over time, collaborate with others on code development, and revert to earlier versions of the code if necessary. It was created by Linus Torvalds in 2005.
+
+GitHub is a web-based platform built on top of Git that provides a place for developers to host their Git repositories and collaborate with others on their code. It offers a range of features such as issue tracking, code review, and project management tools. It was launched in 2008 and acquired by Microsoft in 2018.
+
+
+2.EXPLAIN VERY BRIEF ANY 5 BASIC GIT COMMANDS.
+
+ANS:-
+
+1.git init: This command initializes a new Git repository in your current directory, allowing you to start tracking changes to your code.
+2.git add: This command adds changes to your code to the Git staging area, preparing them to be committed to the repository.
+3.git commit: This command records the changes you've made to your code in the Git repository, along with a message describing the changes.
+4.git status: This command shows you the current status of your Git repository, including which files have been modified and which changes are staged for commit.
+5.git push: This command uploads the changes you've committed to a remote repository, such as a repository hosted on GitHub or GitLab.
+
+
+3. HOW TO MAKE PULL REQUEST.
+ANS:-
+Fork the repository: Go to the repository you want to contribute to on GitHub and click on the "Fork" button in the top right corner. This creates a copy of the repository in your own GitHub account.
+Clone the repository: Clone the repository to your local machine using the git clone command. This will create a local copy of the repository on your computer that you can work on.
+Create a new branch: Create a new branch in the repository using the git branch command. This allows you to make changes to the code without affecting the main branch.
+Make changes and commit them: Make the changes you want to contribute to the repository and commit them to your branch using the git commit command.
+Push the changes to your fork: Push your changes to your fork of the repository on GitHub using the git push command.
+Create a pull request: Go to your fork of the repository on GitHub and click on the "New pull request" button. Select the branch you want to merge your changes into and add a description of your changes. Click on the "Create pull request" button to submit your changes for review.
+Wait for feedback: The repository owner or maintainers will review your changes and provide feedback or request changes if needed. You can continue to make changes and push them to your branch until the pull request is accepted and merged into the main branch.
